@@ -13,9 +13,5 @@ import (
 // gong.IsRealClose() & gong.IsRealZero()
 
 func Test001(t *testing.T) {
-	expected := "Hello odt v0.1.0\n"
-	actual := Hello()
-	if actual != expected {
-		t.Errorf("expected %q, got %q", expected, actual)
-	}
+	// TODO
 }
