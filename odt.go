@@ -4,13 +4,13 @@
 package odt
 
 import (
-    "fmt"
-    _ "embed"
-    )
+	_ "embed"
+	"fmt"
+)
 
 //go:embed Version.dat
 var Version string
 
 func Hello() string {
-    return fmt.Sprintf("Hello odt v%s", Version)
+	return fmt.Sprintf("Hello odt v%s", Version)
 }
